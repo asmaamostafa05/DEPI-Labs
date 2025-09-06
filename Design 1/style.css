@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*تنسيق السكشن الاول*/
+
+header{
+    background-color: rgb(3, 3, 39);
+    color: white;
+    padding: 100px 200px;
+}
+header .top-content .title-1{
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+header .top-content .paragraph-1{
+    margin-bottom: 20px;
+}
+header .top-content .view-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(49, 142, 218);
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+header .top-content .manage-button{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(3, 3, 39);
+    border: 1px white solid;
+    margin-top: 20px;
+}
+header .all-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+header .all-cards .card{
+    width: 200px;
+    border: 1px  rgb(49, 142, 218) solid;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+header .all-cards .card i{
+    font-size: 30px;
+}
+header .all-cards .card .feature{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*تنسيق السكشن التاني */
+
+main{
+    padding: 100px 200px;
+}
+main .title-2{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+main .nav-bar{
+    display: flex;
+    margin-bottom: 60px;
+    color: gray;
+}
+main .nav-bar .choose-pet{
+    margin-left: 30px;
+    color: gray;
+    text-decoration: none;
+}
+main .nav-bar .choose-pet-1{
+    margin-left: 30px;
+    color: rgb(49, 142, 218) ;
+}
+main .all-pets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+main .all-pets .pet{
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+main .all-pets .pet .pet-image{
+    width: 140px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+main .all-pets .pet .pet-all-info{
+    padding: 20px;
+}
+main .all-pets .pet .pet-all-info i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(49, 142, 218);
+}
+main .all-pets .pet .pet-all-info .pet-name {
+    font-size: 20px;
+}
+main .all-pets .pet .pet-all-info .pet-name , .pet-info{
+    margin-bottom: 10px;
+}
+main .all-pets .pet .pet-all-info .pet-years{
+    color: gray;
+    font-size: 14px;
+}
+footer{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+footer .footer-paragraph{
+    color: gray;
+}
